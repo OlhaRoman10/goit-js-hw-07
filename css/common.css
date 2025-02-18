@@ -78,3 +78,29 @@ button {
       letter-spacing: 0.04em;
       color: #fff;
 }
+.widget {
+  border-radius: 8px;
+    padding: 100px 88px;
+    width: 345px;
+    height: 280px;
+    display: flex;
+      align-items: center;
+        justify-content: center;
+      flex-direction: column;
+      gap: 10px;
+      background: #fff;
+}
+.widget p {
+text-align: center;
+}
+.change-color {
+  border-radius: 8px;
+    padding: 8px 16px;
+    width: 148px;
+    height: 40px;
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      gap: 10px;
+}
